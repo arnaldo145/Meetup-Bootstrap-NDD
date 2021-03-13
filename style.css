@@ -1,0 +1,62 @@
+h1 {
+    text-align: center;
+    margin: 25px 0;
+}
+
+h1, strong, .panel-heading {
+    color: #1d4356;
+}
+
+.panel-heading{
+    color: #1d4356 !important;
+    background-color: #C7DFEC !important;
+}
+
+.panel-info{
+    border-color: #C7DFEC !important;
+}
+
+.row {
+    margin: 10px;
+}
+
+.row>div {
+    padding: 0;
+}
+
+.profile-image {
+    width: 100%;
+    text-align: center;
+}
+
+.profile-image>img {
+    width: 200px;
+    max-width: 200px;
+    height: 200px;
+    max-height: 200px;
+}
+
+.panel-heading {
+    font-weight: bold;
+    width: 100%;
+}
+
+.contact-content{
+    height: 200px;
+}
+
+.contact-content>p {
+    margin: 0;
+}
+
+.col-hover:hover{
+    background-color: #C7DFEC;
+}
+
+@media only screen and (max-width: 991px) {
+    .contact-content{
+        text-align: center;
+        margin: 10px 0;
+        height: auto;
+    }
+}
